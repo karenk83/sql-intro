@@ -12,5 +12,9 @@
 -- | 2020 | Toronto Blue Jays                 |
 -- | 2020 | Washington Nationals              |
 -- +------+-----------------------------------+
+SELECT year, name FROM teams;
+SELECT team_id, year FROM teams;
+SELECT first_name, last_name FROM players;
+ 
 
 
