@@ -8,6 +8,7 @@
 -- | 2003 | Detroit Tigers       | 43   | 119    |
 -- +------+----------------------+------+--------+
 
-SELECT id, losses
-FROM stats
-ORDER BY losses;
+SELECT year, name, wins, losses
+FROM teams
+ORDER BY losses DESC
+LIMIT 3;
